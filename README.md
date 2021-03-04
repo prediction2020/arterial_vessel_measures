@@ -21,6 +21,8 @@ https://github.com/Visceral-Project/EvaluateSegmentation/blob/master/builds/Ubun
 - Scikit learn
 - Python version 3.8.5
 
+An environment.yml file can be found in the repository. 
+
 ### Directories and Paths
 #### Before Run
 ```
@@ -194,7 +196,7 @@ https://github.com/Visceral-Project/EvaluateSegmentation/blob/master/builds/Ubun
 ```
 **Evaluation** : “metric_dfs” contains a csv for each metric with metric values and rankings from highest quality to lowest. It also contains a file visual_scores.csv which contains the visual scores assigned to the segmentations in the given segmentation set.
 
-**information.txt**  : Contains information about properties of the segmentation set so that the user can make sure the segmentation set is within defined boundary conditions. See below Step 2. 
+**information.txt**  : Contains information about properties of the segmentation set so that the user can make sure the segmentation set is within defined boundary conditions. See below Step 3. 
 
 **Subanalysis_index_of_dispersion_and_median_values** : See Table 5 in the publication.
 
@@ -207,7 +209,11 @@ https://github.com/Visceral-Project/EvaluateSegmentation/blob/master/builds/Ubun
 **EvaluateSegmentation**:  The EvaluateSegmentation tool executable file. This path should be defined in the AVE_config.py 
 
  
-## CODE FILES
+## Code Files
+
+Environment yml file:
+- environment.yml
+ 
 Config file:
 - AVE_config.py
 
@@ -232,7 +238,9 @@ Text files:
 - Vessel_IDs.txt
 
 Contents
+
 **utils**: helper functions for the whole framework can be found here.
+
 **optional**: files not essential for the performance measure selection framework.
 
 ## PERFORMANCE MEASURE SELECTION FRAMEWORK
