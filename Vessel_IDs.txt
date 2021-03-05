@@ -1,0 +1,27 @@
+################################################
+# ITK-SnAP Label Description File
+# File format: 
+# IDX   -R-  -G-  -B-  -A--  VIS MSH  LABEL
+# Fields: 
+#    IDX:   Zero-based index 
+#    -R-:   Red color component (0..255)
+#    -G-:   Green color component (0..255)
+#    -B-:   Blue color component (0..255)
+#    -A-:   Label transparency (0.00 .. 1.00)
+#    VIS:   Label visibility (0 or 1)
+#    IDX:   Label mesh visibility (0 or 1)
+#  LABEL:   Label description 
+################################################
+    0     0    0    0        0  0  0    "Clear Label"
+    1   255    0    0        1  1  1    "Small vessels(A3-M2-M3-P3)"
+    4     0    0  255        1  1  1    "M1 "
+    5     0  255  255        1  1  1    "Internal Carotid"
+    6     0  255    0        1  1  1    "M2"
+   11   255  255    0        1  1  1    "A1"
+   12     0    0  128        1  1  1    "Acom"
+   13     0  139  139        1  1  1    "A2"
+   16   106   90  205        1  1  1    "Vertebral"
+   17     0  255    0        1  1  1    "Basilary"
+   18   255    0  255        1  1  1    "Pcom"
+   19   165   42   42        1  1  1    "P1"
+   20   255  250  250        1  1  1    "P2"
