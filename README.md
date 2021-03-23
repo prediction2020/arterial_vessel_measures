@@ -185,11 +185,11 @@ An environment.yml file can be found in the repository.
      |
      ---- “C0_H2_E1”
      |    |
-     |    ---- segmentation.nii.gz  
+     |    ---- all_metrics.csv
      |     
      ---- “C92_M91_R2_V3_G1”
      |    |
-     |    ---- segmentation.nii.gz  
+     |    ---- all_metrics.csv  
      |     
      ---- ...
 
